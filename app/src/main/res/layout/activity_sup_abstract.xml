@@ -82,7 +82,7 @@
         android:layout_width="338dp"
         android:layout_height="56dp"
         android:layout_marginTop="396dp"
-        android:text="Click the select button and selete file to downlond"
+        android:text="Click the select button and select file to downlond"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="25dp"
