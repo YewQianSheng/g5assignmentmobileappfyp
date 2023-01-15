@@ -99,7 +99,7 @@ public class SignUpActivity extends AppCompatActivity {
                                 //userinfo.put("Password", signupPassword.getText().toString());
                                 if (selectedSignUpCategories.equals("Student account")){
                                     userinfo.put("isStudent", "1");
-                                }else if (selectedSignUpCategories.equals("Supervisor account")){
+                                }else if (selectedSignUpCategories.equals("Supervisor/coordinator account")){
                                     userinfo.put("isSupervisor", "1");
                                 }
                                 df.set(userinfo);
