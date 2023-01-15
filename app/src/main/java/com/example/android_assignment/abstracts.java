@@ -94,11 +94,19 @@ public class abstracts extends AppCompatActivity {
         });
     }
 
+
+
     private void selectFiles() {
-        Intent intent = new Intent();
-        intent.setType("application/*");
-        intent.setAction(Intent.ACTION_GET_CONTENT);
-        startActivityForResult(Intent.createChooser(intent, "Select pdf files...."), 1);
+        String title = pdf_name.getText().toString();
+        if(title.isEmpty()){
+            Toast.makeText(abstracts.this, "Please enter your filename.", Toast.LENGTH_SHORT).show();
+        }
+        else{
+            Intent intent = new Intent();
+            intent.setType("application/*");
+            intent.setAction(Intent.ACTION_GET_CONTENT);
+            startActivityForResult(Intent.createChooser(intent, "Select ppt files...."), 1);
+        }
     }
 
     @Override
