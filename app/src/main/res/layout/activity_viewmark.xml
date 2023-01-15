@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Viewmark"
+    android:background="@color/lavender">
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="353dp"
+        android:layout_height="118dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.157" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="215dp"
+        android:layout_height="122dp"
+        android:background="@mipmap/ic_banner_foreground"
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
+        app:layout_constraintEnd_toEndOf="@+id/view3"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="@+id/view3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:padding="12dp"
+        android:text="Log Out"
+        android:textSize="20sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/view3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.355" />
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title: Proposal"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:translationZ="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textHome"
+        app:layout_constraintEnd_toEndOf="@+id/textHome"
+        app:layout_constraintStart_toStartOf="@+id/textHome"
+        app:layout_constraintTop_toTopOf="@+id/textHome"
+        app:layout_constraintVertical_bias="0.261" />
+
+    <TextView
+        android:id="@+id/dueDate1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score : 80%"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:translationZ="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textHome"
+        app:layout_constraintEnd_toEndOf="@+id/textHome"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/textHome"
+        app:layout_constraintTop_toTopOf="@+id/textHome"
+        app:layout_constraintVertical_bias="0.715" />
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title: Figma"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:translationZ="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textHome2"
+        app:layout_constraintEnd_toEndOf="@+id/textHome"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="@+id/textHome"
+        app:layout_constraintTop_toTopOf="@+id/textHome2"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <TextView
+        android:id="@+id/dueDate2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: 90%"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:translationZ="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textHome2"
+        app:layout_constraintEnd_toEndOf="@+id/textHome"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/textHome"
+        app:layout_constraintTop_toTopOf="@+id/title2"
+        app:layout_constraintVertical_bias="0.621" />
+
+    <TextView
+        android:id="@+id/title3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title: Final PPT "
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:translationZ="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textHome3"
+        app:layout_constraintEnd_toEndOf="@+id/textHome"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="@+id/textHome"
+        app:layout_constraintTop_toTopOf="@+id/textHome3"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <TextView
+        android:id="@+id/dueDate3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: 70%"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:translationZ="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textHome3"
+        app:layout_constraintEnd_toEndOf="@+id/textHome"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/textHome"
+        app:layout_constraintTop_toBottomOf="@+id/title3"
+        app:layout_constraintVertical_bias="0.282" />
+
+
+    <View
+        android:id="@+id/textHome"
+        android:layout_width="373dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="@color/white"
+        android:paddingTop="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.633"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.417" />
+
+    <View
+        android:id="@+id/textHome2"
+        android:layout_width="373dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="@color/white"
+        android:paddingTop="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.733"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.626" />
+
+    <View
+        android:id="@+id/textHome3"
+        android:layout_width="373dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="@color/white"
+        android:paddingTop="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.633"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.842" />
+
+    <View
+        android:id="@+id/nav"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/lavender"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/navHome"
+        android:layout_width="121dp"
+        android:layout_height="64dp"
+        android:backgroundTint="@color/white"
+        android:text="Home"
+        app:cornerRadius="30dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/nav"
+        app:layout_constraintStart_toStartOf="@+id/nav"
+        app:layout_constraintTop_toTopOf="@+id/nav" />
+
+    <Button
+        android:id="@+id/navMark"
+        android:layout_width="121dp"
+        android:layout_height="64dp"
+        android:backgroundTint="@color/white"
+        android:text="Mark"
+        app:cornerRadius="30dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/nav"
+        app:layout_constraintEnd_toEndOf="@+id/nav"
+        app:layout_constraintTop_toTopOf="@+id/nav" />
+
+    <Button
+        android:id="@+id/navWork"
+        android:layout_width="121dp"
+        android:layout_height="64dp"
+        android:backgroundTint="@color/white"
+        android:text="Work"
+        app:cornerRadius="30dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/nav"
+        app:layout_constraintEnd_toStartOf="@+id/navMark"
+        app:layout_constraintStart_toEndOf="@+id/navHome"
+        app:layout_constraintTop_toTopOf="@+id/nav" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
